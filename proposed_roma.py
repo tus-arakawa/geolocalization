@@ -68,7 +68,7 @@ if __name__ == "__main__":
     device = "cuda" if torch.cuda.is_available() else "cpu"
     model = roma_outdoor(device=device)
     
-    for d in dirs[:5]:
+    for d in dirs:
         img0_path = Path(args.path) / d / "images" / f"{d}.jpg"
         img1_path = Path(args.path) / d / "images" / f"{img_name}.png"
         img0 = cv2.imread(img0_path)
@@ -136,4 +136,5 @@ if __name__ == "__main__":
         })
         df.to_csv(Path(args.path)/d/img_name/"matches.csv", index=False)
         
+
         np.save(Path(args.path)/d/img_name/f"{d}.npy", H)
