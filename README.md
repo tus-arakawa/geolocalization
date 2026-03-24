@@ -18,7 +18,5 @@ project/
 │
 ├─ 0001/
 │
-
-
-```md
+```
 Additional code is currently being prepared for release.
