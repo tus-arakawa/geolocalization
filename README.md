@@ -19,4 +19,3 @@ project/
 ├─ 0001/
 │
 ```
-Additional code is currently being prepared for release.
