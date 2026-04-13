@@ -1,4 +1,5 @@
-# Geolocalization
+# Geolocalization 
+"Geolocalization of Unmanned Aerial Vehicle Images and Mapping onto Satellite Images Utilizing 3D Gaussian Splatting"
 
 ### Directory Structure
 ```text
